@@ -17,8 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@solana/web3.js": "^1.87.0",
-    "@grpc/grpc-js": "^1.9.0",
-    "@grpc/proto-loader": "^0.7.0",
+    "@triton-one/yellowstone-grpc": "^0.4.0",
     "ws": "^8.14.0"
   }
 }
