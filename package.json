@@ -1,0 +1,24 @@
+{
+  "name": "solana-latency-test",
+  "version": "1.0.0",
+  "description": "Solana gRPC and WebSocket latency test for chain messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "solana",
+    "grpc",
+    "websocket",
+    "latency",
+    "test"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.0",
+    "@grpc/grpc-js": "^1.9.0",
+    "@grpc/proto-loader": "^0.7.0",
+    "ws": "^8.14.0"
+  }
+}
