@@ -1,11 +1,12 @@
 module.exports = {
   grpc: {
-    endpoint: process.env.GRPC_ENDPOINT || "grpc.mainnet-beta.solana.com:443",
+    endpoint: process.env.GRPC_ENDPOINT || "https://grpc.mainnet-beta.solana.com:443",
     token: process.env.GRPC_TOKEN || "",
   },
   
   websocket: {
-    endpoint: process.env.WS_ENDPOINT || "wss://api.mainnet-beta.solana.com/",
+    endpoint: process.env.WS_ENDPOINT || "https://api.mainnet-beta.solana.com/",
+    wsEndpoint: process.env.WS_WS_ENDPOINT || "wss://api.mainnet-beta.solana.com/",
   },
   
   test: {
