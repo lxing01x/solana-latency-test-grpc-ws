@@ -15,7 +15,7 @@ class WsClient {
       console.log('Connecting to WebSocket endpoint:', config.websocket.endpoint);
       
       this.connection = new Connection(config.websocket.endpoint, {
-        wsEndpoint: config.websocket.endpoint,
+        wsEndpoint: config.websocket.wsEndpoint,
         commitment: 'confirmed'
       });
       
